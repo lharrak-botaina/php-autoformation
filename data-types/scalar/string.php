@@ -6,8 +6,7 @@
 $txt = "lharrak";
 echo " botaina $txt!";
 
-$x = 20+3;
-echo $x;
+
 ?>
 
 
