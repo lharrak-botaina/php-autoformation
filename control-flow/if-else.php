@@ -6,4 +6,5 @@ if ($t < "20") {
 }else {
     echo "good night";
 }
+
 ?>
