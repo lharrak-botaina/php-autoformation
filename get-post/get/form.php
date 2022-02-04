@@ -1,8 +1,9 @@
 <?php
 
 
-if($_GET['email'] ){
+if($_GET['parametre1'] ){
         
-    echo "Welcome " . $_GET['email'] . "<br />";
+    echo "Welcome " . $_GET['parametre1'] . "<br />";
     
-}
+};
+?>
