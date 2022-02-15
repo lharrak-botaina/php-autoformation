@@ -34,4 +34,9 @@ class BankAccount
     echo var_dump($respons);
     echo'<br>';
     echo 'rest in your account: '.  $account->balance;
+    $account->deposit(200);
+    
+    echo'<br>';
+    echo 'rest in your account: '.  $account->balance;
+
 ?>
