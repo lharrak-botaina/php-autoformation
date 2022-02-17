@@ -56,7 +56,7 @@
 <body>
 <form action="" method="post">
     <input type="text" name="x" value="<?php echo $x ?>">
-    <input type="text" name="operation" value="<?php echo $operation ?>">
+        <input type="text" name="operation" value="<?php echo $operation ?>">
 
     <input type="text" name="y" value="<?php echo $y ?>">
     <input type="text" id="afficheur" name="afficheur" value="<?php echo $afficheur ?>" />
