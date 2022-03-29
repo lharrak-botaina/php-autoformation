@@ -1,7 +1,7 @@
 <?php
-    $connect = mysqli_connect("localhost", "boutaina", "test123", "demo");
+    $connect = mysqli_connect("localhost", "boutaina",  "demo");
 
-    $sqlQuery = 'SELECT fname, lname, age FROM persons';
+    $sqlQuery = 'SELECT fname, lname,  FROM persons';
 
     $result = mysqli_query($connect, $sqlQuery);
 
